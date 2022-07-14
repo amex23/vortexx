@@ -1,0 +1,68 @@
+.text-orange-color {
+	color: #ff6600;
+}
+
+.butn-orange-color {
+	background-color: #ff9751;
+	background-image: linear-gradient(to right , #ff6600 , #ff9751 );
+	border-color: #ff6600 #ff7c22 #ff9751;
+}
+
+.butn-orange-color:hover {
+	background-color: #ffffff;
+	background-image: none;
+	color: #ff6600;
+	border-color: #ff6600 #ff7c22 #ff9751;
+}
+
+.butn-orange-color-outline {
+	background-color: transparent;
+	border-color: #ff6600;
+	color: #ff6600;
+}
+
+.butn-orange-color-outline:hover {
+	background-color: #ff9751;
+	background-image: linear-gradient(to right , #ff6600 , #ff9751 );
+	border-color: #ff6600 #ff7c22 #ff9751;
+	color: #ffffff;
+}
+
+#quicklinksNav {
+	height: 120px;
+}
+
+#quicklinksNav .nav-link {
+	padding-left: 0;
+}
+
+#ourlocationNav {
+	height: 134px;
+}
+
+#quick-info {
+	padding-top: 220px;
+}
+
+#accordion100 {
+	max-width: 768px;
+}
+
+#appointment {
+	max-width: 538px;
+}
+
+.rounded-4-3 {
+    border-radius: 1.3rem!important;
+}
+
+.accordion.accordion-modern-status > .card .card-header a.collapsed:after {
+	content: '+';
+    transform: none;
+}
+
+.accordion.accordion-modern-status > .card .card-header a:after {
+	content: '-';
+	transform: none;
+	top: 28%;
+}
