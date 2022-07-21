@@ -419,7 +419,7 @@ textarea.form-control {
   margin: 3rem 0;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .d-g-m img {
